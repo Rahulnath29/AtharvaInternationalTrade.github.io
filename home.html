@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atharva International TRAde</title>
+    <!-- Animation -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!-- fontAwsome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andada+Pro&family=Sora&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top">
+      <div class="container-fluid">
+        <img src="./images/webLogo.png" alt="" srcset="" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./product.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="4"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 5"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./images/carousel1.jpg"
+            class="d-block w-100"
+            alt="slider1"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5
+              class="animate__animated animate__fadeInUp"
+              style="animation-delay: 1s"
+            >
+              Fresh Fruits
+            </h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/carousel2.jpg"
+            class="d-block w-100"
+            alt="slider2"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5
+              class="animate__animated animate__fadeInUp"
+              style="animation-delay: 1s"
+            >
+              Fresh Vegetables
+            </h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images//carousel3.jpg"
+            class="d-block w-100"
+            alt="slider3"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5
+              class="animate__animated animate__fadeInUp"
+              style="animation-delay: 1s"
+            >
+              Indian Spices
+            </h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/carousel4.jpg"
+            class="d-block w-100"
+            alt="slider4"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5
+              class="animate__animated animate__fadeInUp"
+              style="animation-delay: 1s"
+            >
+              Indian Rice
+            </h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/carousel5.jpg"
+            class="d-block w-100"
+            alt="slider5"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5
+              class="animate__animated animate__fadeInUp"
+              style="animation-delay: 1s"
+            >
+              Indian Pulses
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Home Hero-->
+    <div class="container homeHero my-5">
+      <h1>WELCOME TO OUR WEBSITE</h1>
+      <hr class="mx-auto" />
+      <p>
+        Atharva International TRAde (AITRA) providing best quality Agricultural
+        food products like Rice, Onion, Ginger, Spices, Turmeric Powder,
+        Turmeric Fingers, Cumin Seeds, Cumin Powder, Cashew nut, Peanut, Fruits,
+        Grapes, Banana, Pomegranate, Apple, Mix vegetables, Tomato, Green
+        chilli, Potato, Okra, Drum sticks, Soybean, Raw cotton, Chickpea,
+        Grains, etc.. to various countries at reasonable rates. Some of aour
+        major markets are Poland. Dubai, UAE. and California, USA.<a
+          href="./about.html"
+          >Read more....</a
+        >
+      </p>
+    </div>
+
+    <!-- Product Range -->
+    <section id="productRange" class="container-fluid pt-5 text-center">
+      <div>
+        <h1 class="container text-center">Product Range</h1>
+        <hr class="mx-auto" />
+        <p class="my-4">
+          Here you can check out our new product with fair price.
+        </p>
+      </div>
+
+      <div class="row mx-auto container-fluid">
+        <div class="product text-center mb-5 col-lg-4 col-md-4 col-12">
+          <img src="./images/productrange1.jpg" alt="" />
+          <div class="star my-3">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name mb-4">Turmeric Finger</h5>
+          <a class="buy-btn" href="./singleProduct.html"> Read More</a>
+        </div>
+        <div class="product text-center mb-5 col-lg-4 col-md-4 col-12">
+          <img src="./images/productrange2.jpeg" alt="" />
+          <div class="star my-3">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name mb-4">Shelled Peanuts</h5>
+          <a class="buy-btn" href="./singleProduct.html"> Read More</a>
+        </div>
+        <div class="product text-center mb-5 col-lg-4 col-md-4 col-12">
+          <img src="./images/productrange3.jpg" alt="" />
+          <div class="star my-3">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name mb-4">Fresh Cavendish yellow Banana</h5>
+          <a class="buy-btn"> Read More</a>
+        </div>
+        <div class="product text-center mb-5 col-lg-4 col-md-4 col-12">
+          <img src="./images/productrange4.jpg" alt="" />
+          <div class="star my-3">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name mb-4">Fresh Red Grapes</h5>
+          <a class="buy-btn"> Read More</a>
+        </div>
+        <div class="product text-center mb-5 col-lg-4 col-md-4 col-12">
+          <img src="./images/productrange5.jpg" alt="" />
+          <div class="star my-3">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name mb-4">Fresh Indian Mango</h5>
+          <a class="buy-btn"> Read More</a>
+        </div>
+        <div class="product text-center mb-5 col-lg-4 col-md-4 col-12">
+          <img src="./images/productrange6.jpg" alt="" />
+          <div class="star my-3">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name mb-4">Fresh Papaya</h5>
+          <a class="buy-btn"> Read More</a>
+        </div>
+        <div class="product text-center mb-5 col-lg-4 col-md-4 col-12">
+          <img src="./images/productrange7.jpg" alt="" />
+          <div class="star my-3">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name mb-4">Fresh Pomegranate</h5>
+          <a class="buy-btn">Read More </a>
+        </div>
+        <div class="product text-center mb-5 col-lg-4 col-md-4 col-12">
+          <img src="./images/productrange8.jpg" alt="" />
+          <div class="star my-3">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name mb-4">Fresh Green Grapes</h5>
+          <a class="buy-btn"> Read More</a>
+        </div>
+        <div class="product text-center mb-5 col-lg-4 col-md-4 col-12">
+          <img src="./images/productrange9.jpg" alt="" />
+          <div class="star my-3">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name mb-4">Fresh Pink Onion</h5>
+          <a class="buy-btn"> Read More</a>
+        </div>
+        <div class="product text-center mb-5 col-lg-4 col-md-4 col-12">
+          <img src="./images/productrange10.jpeg" alt="" />
+          <div class="star my-3">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name mb-4">Fresh Ginger</h5>
+          <a class="buy-btn"> Read More</a>
+        </div>
+        <div class="product text-center mb-5 col-lg-4 col-md-4 col-12">
+          <img src="./images/productrange11.jpg" alt="" />
+          <div class="star my-3">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name mb-4">Fresh Red Chilli</h5>
+          <a class="buy-btn"> Read More</a>
+        </div>
+
+        <div class="product text-center mb-5 col-lg-4 col-md-4 col-12">
+          <img src="./images/productrange12.jpeg" alt="" />
+          <div class="star my-3">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name mb-4">Broun Rice</h5>
+          <a class="buy-btn"> Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Home Product banner -->
+    <section id="banner">
+      <div class="container productBanner py-3">
+        <h4>ATHARVA INTERNATIONAL TRADE</h4>
+        <h6 class="my-3">
+          Best quality <br />
+          Agriculture Food Products
+        </h6>
+        <a class="text-uppercase">shop now</a>
+      </div>
+    </section>
+
+    <!-- Home Certification -->
+    <section id="certificateContainer" class="container text-center my-5">
+      <div>
+        <h1>CERTIFICATION</h1>
+        <hr class="mx-auto" />
+      </div>
+
+      <div class="row my-5">
+        <img
+          src="./images/certificate1.png"
+          alt=""
+          class="ctImg img-fluid col-lg-2 col-md-4 col-6"
+        />
+        <img
+          src="./images/certificate2.jpg"
+          alt=""
+          class="ctImg img-fluid col-lg-2 col-md-4 col-6"
+        />
+        <img
+          src="./images/certificate3.png"
+          alt=""
+          class="ctImg img-fluid col-lg-2 col-md-4 col-6"
+        />
+        <img
+          src="./images/certificate4.jpg"
+          alt=""
+          class="ctImg img-fluid col-lg-2 col-md-4 col-6"
+        />
+        <img
+          src="./images/certificate5.jpg"
+          alt=""
+          class="ctImg img-fluid col-lg-2 col-md-4 col-6"
+        />
+        <img
+          src="./images/certificate6.jpg"
+          alt=""
+          class="ctImg img-fluid col-lg-2 col-md-4 col-6"
+        />
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="mt-5 py-5">
+      <div class="row container mx-auto pt-5">
+        <div class="footer-one col-lg-3 col-md-6 col-12">
+          <img src="./images/webLogo.png" alt="" class="img-fluid w-80" />
+          <p class="pt-5">
+            All Rights Reserved. ATHARVA INTERNATIONAL TRADE (Terms of Use)
+          </p>
+        </div>
+        <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+          <h5 class="pb-2">General Links</h5>
+          <ul class="text-uppercase list-unstyled">
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./product.html">Products</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+          <h5 class="pb-2">How to find Us</h5>
+          <div>
+            <h6 class="text-uppercase">Address</h6>
+            <p>
+              B No.77, APMC Building, Pimpalgaon, Nashik, Maharashtra, India -
+              422209
+            </p>
+          </div>
+          <div>
+            <h6 class="text-uppercase">Phone</h6>
+            <p>+91-9069077577</p>
+          </div>
+          <div>
+            <h6 class="text-uppercase">Email</h6>
+            <p>aitraimpex@gmail.com</p>
+          </div>
+        </div>
+        <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+          <h5 class="pb-2">Instagram</h5>
+          <div class="row">
+            <img
+              src="./images/insta.jpg"
+              alt=""
+              class="img-fluid w-25 h-70 m-2"
+            />
+            <img
+              src="./images/insta2.jpg"
+              alt=""
+              class="img-fluid w-25 h-70 m-2"
+            />
+            <img
+              src="./images/insta3.jpg"
+              alt=""
+              class="img-fluid w-25 h-70 m-2"
+            />
+            <img
+              src="./images/insta4.jpg"
+              alt=""
+              class="img-fluid w-25 h-70 m-2"
+            />
+            <img
+              src="./images/insta5.jpg"
+              alt=""
+              class="img-fluid w-25 h-70 m-2"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="copyright mt-5 text-center">
+        <div class="row container mx-auto">
+          <div class="col-lg-6 col-md-6 col-12">
+            <p class="pt-3">ATHARVA INTERNATIONAL TRADE&#169;</p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <a><i class="fab fa-facebook"></i></a>
+            <a><i class="fab fa-instagram-square"></i></a>
+            <a><i class="fab fa-youtube-square"></i></a>
+            <a><i class="fab fa-twitter-square"></i></a>
+            <a><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
